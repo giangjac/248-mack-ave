@@ -1,10 +1,6 @@
 class ApplicationController < ActionController::Base
 
   def hello
-    render html: "hello, world!"
-  end
-
-  def goodbye
-    render html: "ciao, bello!"
+    render html: "Placeholder for the HOA of 248 Mack Ave"
   end
 end
